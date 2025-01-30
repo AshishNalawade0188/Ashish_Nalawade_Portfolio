@@ -147,7 +147,7 @@ if selected == 'Projects':
             st.markdown('[Visit Github Repository](https://github.com/AshishNalawade0188/Resume_Classification)')
 
         with col6:
-            st.image(r"E:\My Projects\My_Portfolio\resume.webp", width=700, use_container_width=True)
+            st.image(r"resume.webp", width=700, use_container_width=True)
 
 if selected == 'Contact':
     st.subheader('My Contacts')
