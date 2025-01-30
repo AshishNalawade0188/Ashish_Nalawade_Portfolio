@@ -17,7 +17,7 @@ lottie_data_science = load_lottieurl(url="https://lottie.host/bfda9522-c7e9-4a29
 lottie_contact_us = load_lottieurl(url="https://lottie.host/e5aa96e5-62d8-4f6c-99c6-3a3c218698ec/54lEkuR72c.json")
 
 # Load project images
-heart_disease_project_image = Image.open(r'E:\My Projects\My_Portfolio\book.jpg')
+heart_disease_project_image = Image.open('book.jpg')
 
 # Add custom CSS for Times New Roman font
 st.markdown(
