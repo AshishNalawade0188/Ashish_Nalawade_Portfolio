@@ -146,7 +146,7 @@ if selected == 'Projects':
             st.markdown('[Visit Github Repository](https://github.com/AshishNalawade0188/Resume_Classification)')
         
         with col6:
-            st.image(r"resume.webp", width=700, use_container_width=True)
+            st.image(r"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWKnuEafd69OnKjoEujUV948muA7ANWHYfuA&s", width=700, use_container_width=True)
     
     with st.container():
         col7, col8 = st.columns(2)
