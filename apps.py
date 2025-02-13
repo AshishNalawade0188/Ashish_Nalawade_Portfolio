@@ -129,25 +129,46 @@ if selected == 'Projects':
     
     with st.container():
         col5, col6 = st.columns(2)
+        
         with col5:
             st.subheader("Resume Classification using ML")
             st.write(
                 """
-- Overview: Developed a machine learning model to classify resumes based on their content into predefined categories. This project demonstrates a full machine learning pipeline, including text preprocessing, feature extraction, model building, and deployment.
+                - Overview: Developed a machine learning model to classify resumes based on their content into predefined categories. This project demonstrates a full machine learning pipeline, including text preprocessing, feature extraction, model building, and deployment.
 
-- Technologies Used:
+                - Technologies Used:
 
-    - Programming Languages: Python
-
-    - Libraries: scikit-learn, pandas, NumPy, NLTK, Spacy, Matplotlib, Seaborn, Optuna, MLflow
-
-    - Tools: Jupyter Notebook, Streamlit, Streamlit Cloud
+                    - Programming Languages: Python
+                    - Libraries: scikit-learn, pandas, NumPy, NLTK, Spacy, Matplotlib, Seaborn, Optuna, MLflow
+                    - Tools: Jupyter Notebook, Streamlit, Streamlit Cloud
                 """
             )
             st.markdown('[Visit Github Repository](https://github.com/AshishNalawade0188/Resume_Classification)')
-
+        
         with col6:
             st.image(r"resume.webp", width=700, use_container_width=True)
+    
+    with st.container():
+        col7, col8 = st.columns(2)
+        
+        with col7:
+            st.subheader("Book Recommendation System")
+            st.write(
+                """
+                - Overview: Built a book recommendation system that suggests books based on user preferences and reading history using collaborative filtering and content-based filtering techniques.
+
+                - Technologies Used:
+
+                    - Programming Languages: Python
+                    - Libraries: pandas, NumPy, scikit-learn, NLTK, Surprise, Matplotlib, Seaborn
+                    - Tools: Jupyter Notebook, Streamlit, Streamlit Cloud
+                """
+            )
+            st.markdown('[Visit Github Repository](https://github.com/AshishNalawade0188/Book_Recommendation)')
+        
+        with col8:
+            st.image(r"book_recommendation.webp", width=700, use_container_width=True)
+
 
 if selected == 'Contact':
     st.subheader('My Contacts')
