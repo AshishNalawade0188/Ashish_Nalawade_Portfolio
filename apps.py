@@ -164,10 +164,10 @@ if selected == 'Projects':
                     - Tools: Jupyter Notebook, Streamlit, Streamlit Cloud
                 """
             )
-            st.markdown('[Visit Github Repository](https://github.com/AshishNalawade0188/Book_Recommendation)')
+            st.markdown('[Visit Github Repository](https://github.com/AshishNalawade0188/Book-Recommendation-System)')
         
         with col8:
-            st.image(r"book_recommendation.webp", width=700, use_container_width=True)
+            st.image(r"https://miro.medium.com/v2/resize:fit:828/format:webp/1*8vUVRUrqjUDlMNFmr0Wx6g.png", width=700, use_container_width=True)
 
 
 if selected == 'Contact':
